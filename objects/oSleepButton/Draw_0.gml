@@ -8,9 +8,9 @@ draw_self();
 if (sleepHelper == false) {
 	draw_set_font(fWingdings);
 	draw_set_color(c_white);
-	draw_text(x - 16, y - 112, "i");
+	draw_text(x - 20, y + 60, "h");
 	draw_set_font(fButton);
-	draw_text(x - 80, y - 144, "click to sleep");
+	fn_draw_text_centered(x, y + 144, "click to dream of fish");
 }
 
 // SLEEP POWER NUMBER

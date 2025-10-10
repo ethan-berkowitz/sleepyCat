@@ -1,5 +1,5 @@
 fn_scale_on_hover();
-fn_cursor_hover();
+//fn_cursor_hover();
 
 if (oMain.sleep == 0 or oMain.eatingTime) {
 	image_alpha = 0.4;	
