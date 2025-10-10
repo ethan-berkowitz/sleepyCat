@@ -10,5 +10,13 @@ if (eatingTime) {
 	}
 	else if (!instance_exists(oFish)) {
 		eatingTime = false;
+		audio_play_sound(aGoToSleep, 1, 0);
 	}
 }
+
+//if keyboard_check_pressed(ord("I"))
+//	oMain.sleepPower += 100;
+//if keyboard_check_pressed(ord("O"))
+//	oMain.fishTime -= 1;
+//if keyboard_check_pressed(ord("P"))
+//	oMain.fishAtSameTime += 1;

@@ -1,8 +1,3 @@
-//x += xSpeed;
-//y -= ySpeed;
-//alpha -= 0.005;
-
-
 
 if (distance_to_point(xx, yy) <= spd) {
 	layer = layer_get_id("StaticFish");
@@ -22,6 +17,10 @@ if (goToCat) {
 	if (distance_to_point(catX, catY) < spd) {
 		oMain.sleep--;
 		oMain.food++;
+		if (oMain.eatPower < 5 or !audio_is_playing(aEatFish)) {
+			var pitchShift = random_range(0.8, 1.6);
+			audio_play_sound(aEatFish, 1, 0, 1, 0, pitchShift);
+		}
 		instance_destroy();
 	}
 }

@@ -9,5 +9,6 @@ else {
 }
 
 if (fn_is_clicked(self) and oMain.sleep > 0 and !oMain.eatingTime) {
+	audio_play_sound(aGoEat, 1, 0);
 	oMain.eatingTime = true;
 }

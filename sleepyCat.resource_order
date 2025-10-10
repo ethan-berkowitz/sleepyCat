@@ -17,6 +17,7 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"aEatFish","order":1,"path":"sounds/aEatFish/aEatFish.yy",},
     {"name":"oFish","order":8,"path":"objects/oFish/oFish.yy",},
     {"name":"fWingdings","order":2,"path":"fonts/fWingdings/fWingdings.yy",},
     {"name":"oVintageLines","order":2,"path":"objects/oVintageLines/oVintageLines.yy",},
@@ -24,6 +25,7 @@
     {"name":"fn_scale_on_hover","order":1,"path":"scripts/fn_scale_on_hover/fn_scale_on_hover.yy",},
     {"name":"fn_draw_text_centered","order":6,"path":"scripts/fn_draw_text_centered/fn_draw_text_centered.yy",},
     {"name":"oMain","order":1,"path":"objects/oMain/oMain.yy",},
+    {"name":"aGoEat","order":3,"path":"sounds/aGoEat/aGoEat.yy",},
     {"name":"fn_choose_random_point_in_circle","order":4,"path":"scripts/fn_choose_random_point_in_circle/fn_choose_random_point_in_circle.yy",},
     {"name":"sUpgrade","order":8,"path":"sprites/sUpgrade/sUpgrade.yy",},
     {"name":"fn_array_delete_first","order":5,"path":"scripts/fn_array_delete_first/fn_array_delete_first.yy",},
@@ -37,6 +39,7 @@
     {"name":"oDreamCircle","order":11,"path":"objects/oDreamCircle/oDreamCircle.yy",},
     {"name":"sDreamCircleVisual","order":4,"path":"sprites/sDreamCircleVisual/sDreamCircleVisual.yy",},
     {"name":"oUpgradeEat","order":14,"path":"objects/oUpgradeEat/oUpgradeEat.yy",},
+    {"name":"aGoToSleep","order":2,"path":"sounds/aGoToSleep/aGoToSleep.yy",},
     {"name":"oSleepButton","order":6,"path":"objects/oSleepButton/oSleepButton.yy",},
     {"name":"oDreamCircleVisual","order":16,"path":"objects/oDreamCircleVisual/oDreamCircleVisual.yy",},
     {"name":"sDreamCircle","order":3,"path":"sprites/sDreamCircle/sDreamCircle.yy",},
