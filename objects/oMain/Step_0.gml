@@ -14,6 +14,19 @@ if (eatingTime) {
 	}
 }
 
+
+// MUSIC
+
+if (eatingTime) {
+	audio_sound_gain(sndHatsCutoff, 1, 20);
+	audio_sound_gain(sndSynth, 1, 20);
+}
+else {
+	audio_sound_gain(sndHatsCutoff, 0, 20);
+	audio_sound_gain(sndSynth, 0, 20);
+}
+
+
 //if keyboard_check_pressed(ord("I"))
 //	oMain.sleepPower += 100;
 //if keyboard_check_pressed(ord("O"))
