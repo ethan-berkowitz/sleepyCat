@@ -15,15 +15,29 @@ if (eatingTime) {
 }
 
 
-// MUSIC
+// START MUSIC
 
-if (eatingTime) {
-	audio_sound_gain(sndHatsCutoff, 1, 20);
-	audio_sound_gain(sndSynth, 1, 20);
+if (musicStarted == false) {
+	musicDelay--;
+	if (musicDelay < 0) {
+		musicStarted = true;
+
+		sndPiano = audio_play_sound(aPiano, 0, 1, 1);
+		sndBassAndSnare = audio_play_sound(aBassAndSnare, 0, 1, 1);
+		sndHats = audio_play_sound(aHats, 0, 1, 0);
+		sndHatsCutoff = audio_play_sound(aHatsCutoff, 0, 1, 1);
+		sndSynth = audio_play_sound(aSynth, 0, 1, 0);
+	}
 }
 else {
-	audio_sound_gain(sndHatsCutoff, 0, 20);
-	audio_sound_gain(sndSynth, 0, 20);
+	if (eatingTime) {
+		audio_sound_gain(sndHatsCutoff, 1, 20);
+		audio_sound_gain(sndSynth, 1, 20);
+	}
+	else {
+		audio_sound_gain(sndHatsCutoff, 0, 20);
+		audio_sound_gain(sndSynth, 0, 20);
+	}
 }
 
 
