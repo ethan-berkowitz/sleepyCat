@@ -68,6 +68,7 @@
     {"id":{"name":"aHats","path":"sounds/aHats/aHats.yy",},},
     {"id":{"name":"aGoToSleep","path":"sounds/aGoToSleep/aGoToSleep.yy",},},
     {"id":{"name":"oSleepButton","path":"objects/oSleepButton/oSleepButton.yy",},},
+    {"id":{"name":"oUpgradeSleep100","path":"objects/oUpgradeSleep100/oUpgradeSleep100.yy",},},
     {"id":{"name":"fn_cursor_hover","path":"scripts/fn_cursor_hover/fn_cursor_hover.yy",},},
     {"id":{"name":"aPiano","path":"sounds/aPiano/aPiano.yy",},},
     {"id":{"name":"sSleepingCat","path":"sprites/sSleepingCat/sSleepingCat.yy",},},

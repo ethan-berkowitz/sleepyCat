@@ -22,4 +22,4 @@ if (eatHelper == false and oMain.eatingTime == true) {
 draw_set_alpha(image_alpha);
 draw_set_color(c_white);
 draw_set_font(fNumberSmall);
-fn_draw_text_centered(x, y, string(oMain.eatPower));
+fn_draw_text_centered(x, y, string(oMain.perSec));

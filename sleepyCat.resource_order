@@ -48,6 +48,7 @@
     {"name":"aHats","order":6,"path":"sounds/aHats/aHats.yy",},
     {"name":"aGoToSleep","order":2,"path":"sounds/aGoToSleep/aGoToSleep.yy",},
     {"name":"oSleepButton","order":6,"path":"objects/oSleepButton/oSleepButton.yy",},
+    {"name":"oUpgradeSleep100","order":19,"path":"objects/oUpgradeSleep100/oUpgradeSleep100.yy",},
     {"name":"aPiano","order":4,"path":"sounds/aPiano/aPiano.yy",},
     {"name":"oMenu","order":17,"path":"objects/oMenu/oMenu.yy",},
     {"name":"oDreamCircleVisual","order":16,"path":"objects/oDreamCircleVisual/oDreamCircleVisual.yy",},

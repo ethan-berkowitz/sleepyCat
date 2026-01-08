@@ -7,7 +7,8 @@ draw_self();
 
 draw_set_color(c_black);
 draw_set_font(fButton);
-fn_draw_text_centered(x, y, "+1");
+var perSecIncrease = (oMain.perSec * perSecMult) - oMain.perSec;
+fn_draw_text_centered(x, y, "+" + string(perSecIncrease) + "/s");
 
 draw_set_alpha(image_alpha);
 var col = c_white;

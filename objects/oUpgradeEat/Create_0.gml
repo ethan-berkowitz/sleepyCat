@@ -3,14 +3,3 @@ cost = 50;
 costMult = 1.4;
 perSecMult = 1.38;
 
-
-
-
-
-
-
-
-
-
-
-
