@@ -56,6 +56,7 @@
     {"id":{"name":"fButton","path":"fonts/fButton/fButton.yy",},},
     {"id":{"name":"oUpgradeSleep","path":"objects/oUpgradeSleep/oUpgradeSleep.yy",},},
     {"id":{"name":"sSleepButton","path":"sprites/sSleepButton/sSleepButton.yy",},},
+    {"id":{"name":"fn_debug","path":"scripts/fn_debug/fn_debug.yy",},},
     {"id":{"name":"sEatingCat","path":"sprites/sEatingCat/sEatingCat.yy",},},
     {"id":{"name":"aCreateFish","path":"sounds/aCreateFish/aCreateFish.yy",},},
     {"id":{"name":"sFish","path":"sprites/sFish/sFish.yy",},},

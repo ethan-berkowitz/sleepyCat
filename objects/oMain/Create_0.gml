@@ -25,4 +25,9 @@ sndHats = noone;
 sndHatsCutoff = noone;
 sndSynth = noone;
 
-//fn_create_static_fish(200);
+//DEBUG
+count = 0;
+timer = 0;
+rate = 0.2;
+perSec = 10;
+numOfFish = 1;

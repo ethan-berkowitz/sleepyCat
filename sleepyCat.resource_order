@@ -37,6 +37,7 @@
     {"name":"fButton","order":1,"path":"fonts/fButton/fButton.yy",},
     {"name":"oUpgradeSleep","order":13,"path":"objects/oUpgradeSleep/oUpgradeSleep.yy",},
     {"name":"sSleepButton","order":7,"path":"sprites/sSleepButton/sSleepButton.yy",},
+    {"name":"fn_debug","order":7,"path":"scripts/fn_debug/fn_debug.yy",},
     {"name":"sEatingCat","order":9,"path":"sprites/sEatingCat/sEatingCat.yy",},
     {"name":"sFish","order":2,"path":"sprites/sFish/sFish.yy",},
     {"name":"oDreamCircle","order":11,"path":"objects/oDreamCircle/oDreamCircle.yy",},

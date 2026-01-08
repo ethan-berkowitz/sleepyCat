@@ -21,6 +21,13 @@ var text_h = string_height(txt);
 // Draw centered text
 draw_text(x_center - text_w / 2, y_center - text_h / 2, txt);
 
+//DEBUG
+
+//fn_debug();
+
+
+
+
 
 
 
