@@ -17,7 +17,7 @@ if (goToCat) {
 	if (distance_to_point(catX, catY) < spd) {
 		oMain.sleep--;
 		oMain.food++;
-		if (oMain.eatPower < 5 or !audio_is_playing(aEatFish)) {
+		if (oMain.eatPower < 5 and !audio_is_playing(aEatFish)) {
 			var pitchShift = random_range(0.8, 1.6);
 			audio_play_sound(aEatFish, 1, 0, 1, 0, pitchShift);
 		}

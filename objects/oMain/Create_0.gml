@@ -14,7 +14,7 @@ fishTimer = fishTime;
 stopEating = false;
 fishQueue = ds_queue_create();
 
-musicDelay = 1050000000;
+musicDelay = 30;
 musicStarted = false;
 
 masterGain = 1;

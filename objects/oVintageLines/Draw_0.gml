@@ -1,6 +1,6 @@
 
 draw_set_color(c_white);
-draw_set_alpha(0.05);
+draw_set_alpha(0.15);
 
 // OPTIONAL RAINBOW EFFECT
 
@@ -21,18 +21,6 @@ if (rainbowEffect) {
 // DRAW ALL LINES
 
 for (var i = 0; i < room_height; i += gap) {
-	// OPTIONAL RAINBOW EFFECT
-	if (rainbowEffect) {
-		if (currentLine == highlightLine or currentLine == highlightLine + 1 or currentLine == highlightLine + 2) {
-			draw_set_color(randomColor);
-			draw_set_alpha(0.30);
-		}
-		else {
-			draw_set_color(c_white);
-			draw_set_alpha(0.05);
-		}
-		currentLine++;
-	}
 	// DRAW
 	draw_rectangle(0, i, room_width, i + width, false);
 }

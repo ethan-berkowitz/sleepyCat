@@ -1,10 +1,8 @@
 randomize();
 
-//xSpeed = irandom_range(-2, 2);
-//ySpeed = irandom_range(4, 6);
 colors = [c_white];
 randomColor = colors[irandom(array_length(colors) - 1)];
-scale =  1 //random_range(0.6, 1);
+scale =  1;
 alpha = 1;
 spd = 3;
 scatterSpd = 10;
@@ -16,26 +14,6 @@ goToCat = false;
 
 catX = oCat.x;
 catY = oCat.y - 144;
-
-// X SKEW
-
-//minSkew = 0;
-//maxSkew = 0;
-
-//tmp = irandom_range(-5, 5);
-//if (tmp < 0) {
-//	minSkew = tmp;
-//	xSign = -1;
-//}
-
-//xSign = 1;
-//if (xMaxSkew < 0)
-//	xSign = -1;
-//xCurrentSkew = 0;
-//doneSkewing = false;
-
-
-
 
 // FIND COORDINATE WITHIN CIRCLE
 

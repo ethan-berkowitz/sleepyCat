@@ -13,12 +13,6 @@ draw_set_alpha(1);
 fn_draw_text_centered(room_width / 2, 128, "Sleepy Cat");
 
 
-draw_set_font(fNumberSmall);
-draw_set_color(c_white);
-draw_set_alpha(1);
-var text = "(a normal day in the life of a cat who loves to eat DREAM FISH)";
-fn_draw_text_centered(room_width / 2, 192, text);
-
 // START BUTTON
 
 draw_set_font(fNumbers);

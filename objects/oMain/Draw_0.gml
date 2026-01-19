@@ -23,7 +23,7 @@ draw_text(x_center - text_w / 2, y_center - text_h / 2, txt);
 
 //DEBUG
 
-fn_debug();
+//fn_debug();
 
 
 
