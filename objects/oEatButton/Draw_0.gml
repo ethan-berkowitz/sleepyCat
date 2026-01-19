@@ -20,6 +20,10 @@ if (eatHelper == false and oMain.eatingTime == true) {
 // EAT POWER NUMBER
 
 draw_set_alpha(image_alpha);
-draw_set_color(c_white);
+draw_set_color(c_black);
 draw_set_font(fNumberSmall);
+fn_draw_text_centered(x, y - 30, "Eat");
 fn_draw_text_centered(x, y, string(oMain.perSec));
+fn_draw_text_centered(x, y + 30, "fish/s");
+
+

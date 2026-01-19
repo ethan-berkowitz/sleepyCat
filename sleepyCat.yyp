@@ -82,8 +82,8 @@
     {"id":{"name":"Main","path":"rooms/Main/Main.yy",},},
   ],
   "RoomOrderNodes": [
-    {"roomId":{"name":"Menu","path":"rooms/Menu/Menu.yy",},},
     {"roomId":{"name":"Main","path":"rooms/Main/Main.yy",},},
+    {"roomId":{"name":"Menu","path":"rooms/Menu/Menu.yy",},},
   ],
   "templateType": "game",
   "TextureGroups": [

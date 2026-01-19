@@ -15,19 +15,22 @@ if (sleepHelper == false) {
 
 // SLEEP POWER NUMBER
 
-draw_set_color(c_white);
+draw_set_color(c_black);
 draw_set_font(fNumberSmall);
 
 // The point where you want the text centered
-var x_center = x;
-var y_center = y;
+//var x_center = x;
+//var y_center = y;
 
-// The text you want to draw
-var txt = string(oMain.sleepPower);
+//// The text you want to draw
+//var txt = string(oMain.sleepPower);
 
-// Measure the text size
-var text_w = string_width(txt);
-var text_h = string_height(txt);
+//// Measure the text size
+//var text_w = string_width(txt);
+//var text_h = string_height(txt);
 
-// Draw centered text
-draw_text(x_center - text_w / 2, y_center - text_h / 2, txt);
+//// Draw centered text
+//draw_text(x_center - text_w / 2, y_center - text_h / 2, txt);
+fn_draw_text_centered(x, y - 30, "Create");
+fn_draw_text_centered(x, y, string(oMain.sleepPower));
+fn_draw_text_centered(x, y + 30, "fish");
