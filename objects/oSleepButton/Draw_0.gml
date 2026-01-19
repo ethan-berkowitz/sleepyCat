@@ -32,5 +32,6 @@ draw_set_font(fNumberSmall);
 //// Draw centered text
 //draw_text(x_center - text_w / 2, y_center - text_h / 2, txt);
 fn_draw_text_centered(x, y - 30, "Create");
-fn_draw_text_centered(x, y, string(oMain.sleepPower));
+var temp = fn_format_number(oMain.sleepPower);
+fn_draw_text_centered(x, y, temp);
 fn_draw_text_centered(x, y + 30, "fish");

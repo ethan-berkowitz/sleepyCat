@@ -23,7 +23,8 @@ draw_set_alpha(image_alpha);
 draw_set_color(c_black);
 draw_set_font(fNumberSmall);
 fn_draw_text_centered(x, y - 30, "Eat");
-fn_draw_text_centered(x, y, string(oMain.perSec));
+var temp = fn_format_number(oMain.perSec);
+fn_draw_text_centered(x, y, temp);
 fn_draw_text_centered(x, y + 30, "fish/s");
 
 

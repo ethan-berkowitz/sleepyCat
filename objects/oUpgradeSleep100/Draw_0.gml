@@ -7,8 +7,9 @@ draw_self();
 // WHAT IT DOES
 
 draw_set_color(c_black);
-draw_set_font(fButton);
-fn_draw_text_centered(x, y, "+100");
+draw_set_font(fNumberSmaller);
+fn_draw_text_centered(x, y - 12, "+100");
+fn_draw_text_centered(x, y + 12, "fish");
 
 draw_set_alpha(image_alpha);
 var col = c_white;
